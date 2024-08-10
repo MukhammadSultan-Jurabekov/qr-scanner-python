@@ -24,3 +24,16 @@ git clone https://github.com/yourusername/qr-scanner-python.git
 cd qr-scanner-python
 ```
 
+```
+python3 -m venv qr_env
+source qr_env/bin/activate
+```
+
+
+```
+pip install opencv-python pyzbar
+```
+
+```
+python qr_code_scanner.py
+```
